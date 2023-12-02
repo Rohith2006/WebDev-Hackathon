@@ -1,0 +1,264 @@
+* {
+   
+    border: 0rem;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: -2.6px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+header {
+    position: sticky;
+}
+
+/*navtop*/
+
+/*contacts*/
+
+.navtop {
+    background-color: rgb(3, 3, 151);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    position: 0 0 0 0;
+    color: aliceblue;
+    display: flex;
+    font-size: .7rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+
+}
+
+.mail {
+
+    margin-right: 3rem;
+}
+
+.social {
+    margin: 3rem;
+}
+
+.social a {
+    color: aliceblue
+}
+
+/*navbar*/
+.nav {
+    padding: 1rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    background-color: rgb(3, 3, 151);
+    opacity: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    
+}
+
+.links a {
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+    border-radius: 24%;
+    margin: .25rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    size: 1.2rem;
+}
+
+
+.links a:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 24%;
+    color: rgb(252, 252, 252);
+    size: 1.6rem;
+    transform-origin: bottom left;
+    transform: scaleX(1);/
+}
+
+/* navlogo*/
+
+.name {
+    color: aliceblue;
+    font-size: 3rem;
+    margin-right: .25rem;
+    margin-left: .9rem;
+
+}
+
+.dot {
+    color: red;
+    margin-right: 25rem;
+    margin-top: 0rem;
+
+}
+
+.logo {
+    display: flex;
+}
+
+
+/*start*/
+.top {
+    background-color: rgb(3, 3, 151);
+    background-color: linear-gradient(lightblue, lightcoral);
+    display: flex;
+
+}
+
+/*left*/
+.left {
+    margin-right: 10rem;
+    padding-top: 6rem;
+    padding-left: 5rem;
+    height: 30rem;
+    width: 30rem;
+    color: aliceblue;
+}
+
+.main {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.btns {
+    display: flex;
+}
+
+.button1 {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    background-color: rgb(81, 81, 255);
+    height: 2rem;
+    font-size: 1rem;
+    width: 8rem;
+    border-radius: 1.6rem;
+    color: aliceblue;
+}
+
+.button1:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    background-color: rgb(101, 181, 251);
+    text-align: center;
+    text-decoration: none;
+}
+
+.button2 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    height: 2rem;
+    font-size: 1rem;
+    width: 8rem;
+    border-radius: 1.6rem;
+    color: aliceblue;
+}
+
+.button2:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: 1rem black;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*right*/
+
+.right img {
+    margin-left: 7rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+/*bottom*/
+.bottom {
+    height: 16rem;
+    background-color: rgb(213, 236, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom div {
+    text-align: center;
+    padding-top: 5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: -3rem;
+    background-color: rgb(2, 2, 130);
+    height: 12rem;
+    width: 13rem;
+    color: aliceblue;
+    size: 1.2rem;
+    font-size: 1.2rem;
+    transition: margin 0.5s ease;
+    transition: height 0.5s ease;
+    transition: width 0.5s ease;
+
+    transition: size 0.5s ease;
+}
+
+.bottom div:hover {
+    text-align: center;
+    padding-top: 5rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    margin: -3.5rem;
+    background-color: rgb(2, 2, 130);
+    height: 16rem;
+    width: 18rem;
+    color: rgb(254, 254, 254);
+    size: 2rem;
+    font-size: 2rem;
+}
+
+.bottom i {
+    font-size: 5rem ;
+    margin-bottom: 2rem;
+}
+#about-s{
+    background-color: rgb(213, 236, 255);
+    height: 300rem;
+}
+
+/*mid1*/
+.mid1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    height: 20rem;
+}
+.mid1 h1 {
+    font-size: 4rem;
+    color: rgb(44, 44, 44);    
+}
+.mid1 p {
+    color: rgb(44, 44, 44);    
+}
+.div1left{
+    height: 30rem;
+    padding-top: 5rem;
+    width: 26rem;
+    display: flex;
+}
+.div1left.text{
+    width: 30rem;
+}
+.div1left h2{
+    color: rgba(0, 0, 0 );
+}
+
+.div1left img{
+    width:30rem ;
+}
